@@ -10,5 +10,7 @@ export class ContactPage {
   constructor(public navCtrl: NavController) {
 
   }
-
+  goPrev(){
+    this.navCtrl.pop();
+  }
 }
